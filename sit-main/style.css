@@ -1,0 +1,59 @@
+h1 {
+    text-align: unset;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(60, 211, 85);
+    animation: color 8s infinite;
+}
+
+@keyframes color {
+    0% {color: cadetblue;}
+    10% {color:yellow;}
+    20% {color:rosybrown;}
+    30% {color:pink;}
+    40% {color:firebrick;}
+    50% {color:turquoise;}
+    60% {color:greenyellow;}
+    70% {color:honeydew;}
+    80% {color:orange;}
+    90% {color:purple;}
+    100% {color:white;}
+}
+
+img {
+    height: 350px;
+    border-radius: 8px;
+    transition: transform 0,2s;
+    align-self: center;
+    text-align: left;
+
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+body {
+    background-image:url('fundo.png');
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+h2 {
+    text-align: left;
+    height: 150px;
+    text-size-adjust: 500px;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    position: relative;
+}
+#image {
+    position: absolute;
+  }
+  
+#texto {
+    position: absolute;
+    font-size: 32px;
+    left: 250px;
+    top: 135px;
+}
